@@ -7,6 +7,8 @@ Authors@R: person("Tarak", "Shah", email = "tarak_shah@berkeley.edu", role = c("
 Description: A package for the little things that come up all the time
 License: MIT + file LICENSE
 LazyData: TRUE
-Suggests: testthat
+Suggests:
+    testthat
 URL: https://github.com/tarakc02/udarutils
 BugReports: https://github.com/tarakc02/udarutils/issues
+RoxygenNote: 5.0.1
