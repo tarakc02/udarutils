@@ -2,7 +2,7 @@
 % Please edit documentation in R/infix.R
 \name{\%+\%}
 \alias{\%+\%}
-\title{Paste infix}
+\title{String concatenation}
 \usage{
 x \%+\% y
 }

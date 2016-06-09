@@ -1,4 +1,4 @@
-#' Paste infix
+#' String concatenation
 #'
 #' Add together strings
 #' @param x,y character vectors to be pasted
