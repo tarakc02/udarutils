@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-\#\# udarutils
-==============
+udarutils
+=========
 
 A collection of utility functions that don't have any other home.
 
@@ -13,14 +13,10 @@ A collection of utility functions that don't have any other home.
 library(udarutils)
 # infix paste operator %+%
 greeter <- function(name) "Hello " %+% name
-greeter("Tarak")
+greeter("Tarak"); greeter("Caleb")
 ```
 
     ## [1] "Hello Tarak"
-
-``` r
-greeter("Caleb")
-```
 
     ## [1] "Hello Caleb"
 

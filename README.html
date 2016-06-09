@@ -26,17 +26,17 @@ body {
 <body>
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<h1 id="udarutils">## udarutils</h1>
+<h1 id="udarutils">udarutils</h1>
 <p>A collection of utility functions that don't have any other home.</p>
 <hr />
 <h3 id="examples">Examples</h3>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(udarutils)
 <span class="co"># infix paste operator %+%</span>
 greeter &lt;-<span class="st"> </span>function(name) <span class="st">&quot;Hello &quot;</span> %+%<span class="st"> </span>name
-<span class="kw">greeter</span>(<span class="st">&quot;Tarak&quot;</span>)</code></pre>
-<pre><code>## [1] &quot;Hello Tarak&quot;</code></pre>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">greeter</span>(<span class="st">&quot;Caleb&quot;</span>)</code></pre>
-<pre><code>## [1] &quot;Hello Caleb&quot;</code></pre>
+<span class="kw">greeter</span>(<span class="st">&quot;Tarak&quot;</span>); <span class="kw">greeter</span>(<span class="st">&quot;Caleb&quot;</span>)</code></pre>
+<pre><code>## [1] &quot;Hello Tarak&quot;
+
+## [1] &quot;Hello Caleb&quot;</code></pre>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co"># double pipe (like in Ruby)</span>
 sometimes_null &lt;-<span class="st"> </span>function(t) if (t ==<span class="st"> &quot;woops&quot;</span>) <span class="ot">NULL</span> else t
 <span class="kw">sometimes_null</span>(<span class="st">&quot;normal&quot;</span>) %||%<span class="st"> &quot;Received bad input&quot;</span></code></pre>
